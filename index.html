@@ -2,9 +2,11 @@
 <html lang="da"> <!-- Language set to Danish -->
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcus Slot Rohr - Portefølje</title>
     <link rel="stylesheet" href="stil.css"> 
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,46 +20,52 @@
         </nav>
     </header>
     <main>
-        <section class="about">
-            <h2 class="overskrift">Om Mig</h2>
-            <img class="image" src="images/marcuspic.jpg" alt="Marcus Slot Rohr">
-            <p>
-                This is another sentence. This is another sentence. This is another sentence. 
-                This is one sentence. You can put anything you want in here. This is one sentence. Words. 
-                You can put anything you want in here. This is one sentence. Words. This is one sentence. Words. Words. 
-                This is one sentence. Words. You can put anything you want in here. Anything goes! Anything goes! Quotes from movies, books, people.
-            </p>
-            <p>
-                Hvis jeres virksomhed endnu ikke er godkendt som uddannelsessted, har jeg indsat et link, hvor I kan læse mere.
-                <a href="https://iu.dk/uddannelser/erhvervsuddannelser/erhvervsuddannelser-og-specialer/data-og-kommunikationsuddannelsen/" target="_blank">Data- og kommunikationsuddannelsen (iu.dk)</a>
-            </p>
-            <br>
-        </section>
-        <section class="benefits">
-            <h2 class="overskrift">Fordele ved at Ansætte Mig</h2>
-            <p>
-                Anything goes! You can put anything you want in here. You can put anything you want in here. 
-                You can put anything you want in here. You can put anything you want in here. Anything goes! You can put anything you want in here. 
-                This is one sentence. You can put anything you want in here. This is one sentence. This is another sentence. 
-                Anything goes! Anything goes! This is one sentence. Quotes from movies, books, people.
-                Som 'ledig ufaglært' kan I ansøge om tilskud til min lærlingeløn på 45 kr. per time i hele uddannelsesperioden.
-                Læs mere om denne mulighed her:
-                <a href="https://star.dk/indsatser-og-ordninger/virksomhedsrettede-redskaber/voksenlaerlingeordningen/" target="_blank">Voksenlærlingeordningen (star.dk)</a>
-            </p>
-            <br>
-        </section>
-        <section class="profile">
-            <h2 class="overskrift">Profil</h2>
-            <p>
-                This is one sentence. Quotes from movies, books, people. This is another sentence. Words. This is another sentence. 
-                This is one sentence. You can put anything you want in here. Anything goes! Words. Anything goes! This is one sentence. Words. 
-                You can put anything you want in here. Anything goes! Quotes from movies, books, people. This is one sentence. Words. 
-                This is another sentence. You can put anything you want in here.
-            </p>
-            <p>
-                Jeg søger en læreplads, hvor jeg kan udvikle mine færdigheder inden for programmering, bidrage med mine kvaliteter og lære af andres erfaringer.
-            </p>
-        </section>
+        <div class="row">
+            <div class="about">
+                <img id="image" src="images/marcuspic.jpg" alt="Marcus Slot Rohr" class="image">
+                <h2 class="overskrift">Om Mig</h2>
+                <p>
+                    This is another sentence. This is another sentence. This is another sentence. 
+                    This is one sentence. You can put anything you want in here. This is one sentence. Words. 
+                    You can put anything you want in here. This is one sentence. Words. This is one sentence. Words. Words. 
+                    This is one sentence. Words. You can put anything you want in here. Anything goes! Anything goes! Quotes from movies, books, people.
+                </p>
+                <br>
+                <p>
+                    Hvis jeres virksomhed endnu ikke er godkendt som uddannelsessted, har jeg indsat et link, hvor I kan læse mere.
+                    <a href="https://iu.dk/uddannelser/erhvervsuddannelser/erhvervsuddannelser-og-specialer/data-og-kommunikationsuddannelsen/" target="_blank">Data- og kommunikationsuddannelsen (iu.dk)</a>
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="column" style="background-color:rgb(218, 218, 218);">
+            <div class="benefits">
+                <h2 class="overskrift">Fordele ved at Ansætte Mig</h2>
+                <p>
+                    Anything goes! You can put anything you want in here. You can put anything you want in here. 
+                    You can put anything you want in here. You can put anything you want in here. Anything goes! You can put anything you want in here. 
+                    This is one sentence. You can put anything you want in here. This is one sentence. This is another sentence. 
+                    Anything goes! Anything goes! This is one sentence. Quotes from movies, books, people.
+                    Som 'ledig ufaglært' kan I ansøge om tilskud til min lærlingeløn på 45 kr. per time i hele uddannelsesperioden.
+                    Læs mere om denne mulighed her:
+                    <a href="https://star.dk/indsatser-og-ordninger/virksomhedsrettede-redskaber/voksenlaerlingeordningen/" target="_blank">Voksenlærlingeordningen (star.dk)</a>
+                </p>
+            </div>
+            <div class="profile">
+                <h2 class="overskrift">Profil</h2>
+                <p>
+                    This is one sentence. Quotes from movies, books, people. This is another sentence. Words. This is another sentence. 
+                    This is one sentence. You can put anything you want in here. Anything goes! Words. Anything goes! This is one sentence. Words. 
+                    You can put anything you want in here. Anything goes! Quotes from movies, books, people. This is one sentence. Words. 
+                    This is another sentence. You can put anything you want in here.
+                </p>
+                <p>
+                    Jeg søger en læreplads, hvor jeg kan udvikle mine færdigheder inden for programmering, bidrage med mine kvaliteter og lære af andres erfaringer.
+                </p>
+            </div>
+        </div>
+    </div>
+
     </main>
     <footer>
         <p class="navn">Marcus Slot Rohr</p>
